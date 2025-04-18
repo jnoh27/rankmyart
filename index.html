@@ -1,16 +1,260 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RankMyArt</title>
+  <link rel="stylesheet" href="indexstyle.css">
 </head>
 
 <body>
-  Hello world
-  <script src="script.js"></script>
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+  
+  <header>
+    <img class="logo" src="RankMyArtLogo.png" alt="RankMyArt Logo" onclick="window.location.href='index.html'">
+    <nav class="nav_links">
+      <li><a href="index.html"> Leaderboard </a></li>
+      <li><a href="upload.html"> Upload </a></li>
+      <li><a href="#"> Forum </a></li>
+    </nav>
+    <a class="cta" href="signup.html"> <button> Sign Up </button> </a>
+  </header>
+
+  <div class="top-three"></div>
+  
+  <div class="pin_container">
+    <div class="card">
+      <img src="100girlfriends.jpg" alt="Art 1">
+
+      <div class="overlay">
+        <div class="vote-controls">
+          <div class="vote-icon upvote">
+            <img src="images/upvote.svg" class="icon-outline" alt="Upvote">
+            <img src="images/upvote-fill.svg" class="icon-fill" alt="Upvote Filled">
+          </div>
+          <span class="vote-count">126</span>
+          <div class="vote-icon downvote">
+            <img src="images/downvote.svg" class="icon-outline" alt="Downvote">
+            <img src="images/downvote-fill.svg" class="icon-fill" alt="Downvote Filled">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="1girlfriends.jpg" alt="Art 1">
+
+      <div class="overlay">
+        <div class="vote-controls">
+          <div class="vote-icon upvote">
+            <img src="images/upvote.svg" class="icon-outline" alt="Upvote">
+            <img src="images/upvote-fill.svg" class="icon-fill" alt="Upvote Filled">
+          </div>
+          <span class="vote-count">125</span>
+          <div class="vote-icon downvote">
+            <img src="images/downvote.svg" class="icon-outline" alt="Downvote">
+            <img src="images/downvote-fill.svg" class="icon-fill" alt="Downvote Filled">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="0.1girlfriends.jpg" alt="Art 1">
+
+      <div class="overlay">
+        <div class="vote-controls">
+          <div class="vote-icon upvote">
+            <img src="images/upvote.svg" class="icon-outline" alt="Upvote">
+            <img src="images/upvote-fill.svg" class="icon-fill" alt="Upvote Filled">
+          </div>
+          <span class="vote-count">124</span>
+          <div class="vote-icon downvote">
+            <img src="images/downvote.svg" class="icon-outline" alt="Downvote">
+            <img src="images/downvote-fill.svg" class="icon-fill" alt="Downvote Filled">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="50girlfriends.jpg" alt="Art 1">
+
+      <div class="overlay">
+        <div class="vote-controls">
+          <div class="vote-icon upvote">
+            <img src="images/upvote.svg" class="icon-outline" alt="Upvote">
+            <img src="images/upvote-fill.svg" class="icon-fill" alt="Upvote Filled">
+          </div>
+          <span class="vote-count">123</span>
+          <div class="vote-icon downvote">
+            <img src="images/downvote.svg" class="icon-outline" alt="Downvote">
+            <img src="images/downvote-fill.svg" class="icon-fill" alt="Downvote Filled">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <img src="25girlfriends.jpg" alt="Art 1">
+
+      <div class="overlay">
+        <div class="vote-controls">
+          <div class="vote-icon upvote">
+            <img src="images/upvote.svg" class="icon-outline" alt="Upvote">
+            <img src="images/upvote-fill.svg" class="icon-fill" alt="Upvote Filled">
+          </div>
+          <span class="vote-count">123</span>
+          <div class="vote-icon downvote">
+            <img src="images/downvote.svg" class="icon-outline" alt="Downvote">
+            <img src="images/downvote-fill.svg" class="icon-fill" alt="Downvote Filled">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="10girlfriends.jpg" alt="Art 1">
+
+      <div class="overlay">
+        <div class="vote-controls">
+          <div class="vote-icon upvote">
+            <img src="images/upvote.svg" class="icon-outline" alt="Upvote">
+            <img src="images/upvote-fill.svg" class="icon-fill" alt="Upvote Filled">
+          </div>
+          <span class="vote-count">123</span>
+          <div class="vote-icon downvote">
+            <img src="images/downvote.svg" class="icon-outline" alt="Downvote">
+            <img src="images/downvote-fill.svg" class="icon-fill" alt="Downvote Filled">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="5girlfriends.jpg" alt="Art 1">
+
+      <div class="overlay">
+        <div class="vote-controls">
+          <div class="vote-icon upvote">
+            <img src="images/upvote.svg" class="icon-outline" alt="Upvote">
+            <img src="images/upvote-fill.svg" class="icon-fill" alt="Upvote Filled">
+          </div>
+          <span class="vote-count">123</span>
+          <div class="vote-icon downvote">
+            <img src="images/downvote.svg" class="icon-outline" alt="Downvote">
+            <img src="images/downvote-fill.svg" class="icon-fill" alt="Downvote Filled">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <img src="Meme.jpg" alt="Art 1">
+
+      <div class="overlay">
+        <div class="vote-controls">
+          <div class="vote-icon upvote">
+            <img src="images/upvote.svg" class="icon-outline" alt="Upvote">
+            <img src="images/upvote-fill.svg" class="icon-fill" alt="Upvote Filled">
+          </div>
+          <span class="vote-count">123</span>
+          <div class="vote-icon downvote">
+            <img src="images/downvote.svg" class="icon-outline" alt="Downvote">
+            <img src="images/downvote-fill.svg" class="icon-fill" alt="Downvote Filled">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="10girlfriends.jpg" alt="Art 1">
+
+      <div class="overlay">
+        <div class="vote-controls">
+          <div class="vote-icon upvote">
+            <img src="images/upvote.svg" class="icon-outline" alt="Upvote">
+            <img src="images/upvote-fill.svg" class="icon-fill" alt="Upvote Filled">
+          </div>
+          <span class="vote-count">123</span>
+          <div class="vote-icon downvote">
+            <img src="images/downvote.svg" class="icon-outline" alt="Downvote">
+            <img src="images/downvote-fill.svg" class="icon-fill" alt="Downvote Filled">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="5girlfriends.jpg" alt="Art 1">
+
+      <div class="overlay">
+        <div class="vote-controls">
+          <div class="vote-icon upvote">
+            <img src="images/upvote.svg" class="icon-outline" alt="Upvote">
+            <img src="images/upvote-fill.svg" class="icon-fill" alt="Upvote Filled">
+          </div>
+          <span class="vote-count">123</span>
+          <div class="vote-icon downvote">
+            <img src="images/downvote.svg" class="icon-outline" alt="Downvote">
+            <img src="images/downvote-fill.svg" class="icon-fill" alt="Downvote Filled">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="Meme.jpg" alt="Art 1">
+
+      <div class="overlay">
+        <div class="vote-controls">
+          <div class="vote-icon upvote">
+            <img src="images/upvote.svg" class="icon-outline" alt="Upvote">
+            <img src="images/upvote-fill.svg" class="icon-fill" alt="Upvote Filled">
+          </div>
+          <span class="vote-count">123</span>
+          <div class="vote-icon downvote">
+            <img src="images/downvote.svg" class="icon-outline" alt="Downvote">
+            <img src="images/downvote-fill.svg" class="icon-fill" alt="Downvote Filled">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="10girlfriends.jpg" alt="Art 1">
+
+      <div class="overlay">
+        <div class="vote-controls">
+          <div class="vote-icon upvote">
+            <img src="images/upvote.svg" class="icon-outline" alt="Upvote">
+            <img src="images/upvote-fill.svg" class="icon-fill" alt="Upvote Filled">
+          </div>
+          <span class="vote-count">123</span>
+          <div class="vote-icon downvote">
+            <img src="images/downvote.svg" class="icon-outline" alt="Downvote">
+            <img src="images/downvote-fill.svg" class="icon-fill" alt="Downvote Filled">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <script src="index.js" defer></script>
+
+  <script>
+    window.addEventListener("load", () => {
+      const preloader = document.getElementById("preloader");
+      preloader.style.opacity = "0";
+      setTimeout(() => {
+        preloader.style.display = "none";
+      }, 600); // matches the CSS transition
+    });
+  </script>
 </body>
 
 </html>
